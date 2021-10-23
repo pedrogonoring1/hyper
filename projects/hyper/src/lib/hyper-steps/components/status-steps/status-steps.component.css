@@ -1,0 +1,53 @@
+.status-steps {
+  display: flex;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.cirulo-progress {
+  display: flex;
+}
+
+.circle-step {
+  background-color: rgb(180, 180, 180);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 60px;
+
+}
+
+.step-number {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress-step {
+  height: 7px;
+  width: 150px;
+  background-color: rgb(212, 212, 212);
+  margin-top: 29px;
+}
+
+.infos {
+  font-size: 14px;
+  text-align: center;
+}
+
+.step-none {
+  background-color: rgb(180, 180, 180);
+}
+
+.step-on {
+  background-color: rgb(21, 142, 255);
+}
+
+.step-ok {
+  background-color: rgb(16, 207, 89);
+}

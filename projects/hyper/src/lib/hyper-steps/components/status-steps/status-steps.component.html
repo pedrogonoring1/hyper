@@ -1,0 +1,12 @@
+<div class="status-steps">
+  <ng-container  *ngFor="let item of stepsForRenderizing; index as i">
+    <div class="step">
+      <div class="cirulo-progress">
+        <div class="progress-step" *ngIf="i !== 0" [ngClass]="item.statusStep"></div>
+        <div class="circle-step" [ngClass]="item.statusStep">
+          <label for="step-number" class="step-number">{{ i + 1 }}</label>
+        </div>
+      </div>
+    </div>
+  </ng-container>
+</div>
