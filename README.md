@@ -1,4 +1,6 @@
+<<<<<<< HEAD
 # Hyper
+![alt text](https://i.ibb.co/ZxW3Trn/step-hyper.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
 
