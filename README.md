@@ -1,5 +1,10 @@
-<<<<<<< HEAD
-# Hyper
+# Hyper - Angular
+
+![](https://img.shields.io/github/issues/pedrogonoring1/hyper)
+![](https://img.shields.io/github/forks/pedrogonoring1/hyper)
+![](https://img.shields.io/github/stars/pedrogonoring1/hyper)
+![](https://img.shields.io/github/license/pedrogonoring1/hyper)
+
 ![alt text](https://i.ibb.co/ZxW3Trn/step-hyper.png)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.7.
