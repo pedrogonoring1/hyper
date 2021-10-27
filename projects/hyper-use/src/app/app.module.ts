@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { HyperModule } from 'projects/hyper/src/public-api';
+import { HyperModule } from 'projects/hyper-angular';
 
 import { AppComponent } from './app.component';
 
@@ -9,7 +9,8 @@ import { AppComponent } from './app.component';
     AppComponent
   ],
   imports: [
-    BrowserModule, HyperModule
+    BrowserModule,
+    HyperModule
   ],
   providers: [],
   bootstrap: [AppComponent]

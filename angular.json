@@ -6,7 +6,7 @@
     "hyper": {
       "projectType": "library",
       "root": "projects/hyper",
-      "sourceRoot": "projects/hyper/src",
+      "sourceRoot": "projects/hyper-angular/src",
       "prefix": "lib",
       "architect": {
         "build": {

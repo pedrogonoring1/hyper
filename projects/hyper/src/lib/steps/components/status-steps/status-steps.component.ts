@@ -15,11 +15,8 @@ export class StatusStepsComponent implements OnInit {
 
   ngOnInit(): void {
     this.stepsForRenderizing = [];
-
     this.countOfSteps = 0;
-
     this.createSteps();
-
     this.countOfSteps = this.stepsForRenderizing.length;
   }
 
