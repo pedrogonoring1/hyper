@@ -7,9 +7,30 @@
   <hp-badge [textBadge]="textBadge4" [typeBadge]="typeBadge4"></hp-badge>
   <hp-badge [textBadge]="textBadge3" [typeBadge]="typeBadge3"></hp-badge>
 </div>
+<div class=""></div>
 
-<h2>Buttons</h2>
-<div class="buttons">
+<h2 (click)="reset()">Buttons</h2>
 
+<form [formGroup]="formulario">
+  <div style="width: 50%;">
+    <hyper-input formControlName="name" label="Nome" placeholder="Digite seu nome completo...">
+      <button class="fa fa-check" right></button>
+    </hyper-input>
+  </div>
+</form>
+
+
+  <!-- <input type="week" />
+
+
+<div class="grow-wrap m-5">
+  <textarea
+    name="text"
+    id="text"
+    onInput="this.parentNode.dataset.replicatedValue = this.value"
+  ></textarea>
 </div>
 
+<div style="margin-top: 200px">
+  <span>fim</span>
+</div> -->
